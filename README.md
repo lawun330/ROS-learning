@@ -1,3 +1,3 @@
 # ROS-learning
-learn through projects and sharing them!!
+I study ROS for the first time and sharing some beginner_experience.
 1. The catkin package for turtlesim simulation moving in square.
