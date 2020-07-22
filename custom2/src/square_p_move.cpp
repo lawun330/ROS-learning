@@ -18,15 +18,15 @@ int counter = 0;			//for checking a complete square
 /////////////////////////////////////
 float* MoveStraightVals(float linear_distance, float linear_velocity)
 {
-	linear_time					= abs(linear_distance / linear_velocity); 
-	float linear_ticks			= linear_time * rate;
+	linear_time			= abs(linear_distance / linear_velocity); 
+	float linear_ticks		= linear_time * rate;
 	static float move_array[2] 	= {linear_velocity, linear_ticks};	
 	return move_array;
 }
 
 float* TurnVals(float angle, float angular_velocity)
 {
-	angular_time 				= abs(angle/ angular_velocity);
+	angular_time 			= abs(angle/ angular_velocity);
 	float angular_ticks 		= angular_time * rate;
 	static float turn_array[2] 	= {angular_velocity, angular_ticks};
 	return turn_array;
