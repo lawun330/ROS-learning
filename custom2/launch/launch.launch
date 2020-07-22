@@ -1,6 +1,0 @@
-<launch>
-	<node name = "turtlesim" pkg = "turtlesim" type = "turtlesim_node"/>
-	<node name = "turtle_square_pub" pkg = "custom2" type = "turtle_square_pub" output="screen"/>
-	<node name = "turtle_square_sub" pkg = "custom2" type = "turtle_square_sub" output="screen"/>
-	
-</launch>
