@@ -1,0 +1,7 @@
+<launch>
+	<node name = "turtlesim" pkg = "turtlesim" type = "turtlesim_node"></node>
+	<node name = "turtle_circle_pub" pkg = "custom2" type="turtle_circle_pub" output = "screen"></node>
+	<node name = "turtle_circle_sub" pkg = "custom2" type="turtle_circle_sub" output = "screen"></node>
+
+
+</launch>
