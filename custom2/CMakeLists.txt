@@ -207,5 +207,10 @@ include_directories(
 
 add_executable (turtle_square_pub src/square_p_move.cpp)
 add_executable (turtle_square_sub src/square_s_move.cpp)
+add_executable (turtle_circle_pub src/circle_p_move.cpp)
+add_executable (turtle_circle_sub src/circle_s_move.cpp)
+
 target_link_libraries (turtle_square_pub ${catkin_LIBRARIES})
 target_link_libraries (turtle_square_sub ${catkin_LIBRARIES})
+target_link_libraries (turtle_circle_pub ${catkin_LIBRARIES})
+target_link_libraries (turtle_circle_sub ${catkin_LIBRARIES})
