@@ -45,7 +45,8 @@ int main (int argc, char ** argv)
 
 	while (ros::isShuttingDown() == false)
 	{
-
+		while (pub.getNumSubscriber() == 0){r.sleep();}
+		
 		//front
 		float * M_array = MoveStraightVals(4, 2);
 
