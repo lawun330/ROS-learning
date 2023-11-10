@@ -1,3 +1,3 @@
 # ROS-learning
-I study ROS for the first time and sharing some beginner_experience.
-1. The catkin package for turtlesim simulation moved in circle and square.
+I studied ROS for the first time and shared my beginner code. This repo is also a reflection of how far I have come when it comes to ROS.
+The catkin package for the 'turtlesim' simulation moved in circles and squares.
