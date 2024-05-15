@@ -1,3 +1,3 @@
 # ROS-learning
-I studied ROS for the first time and shared my beginner code. This repo is also a reflection of how far I have come when it comes to ROS.
+I studied Robot Operating System (ROS) for the first time. These are my beginner scripts done in the Linux OS. This repository is a reflection of my learning journey.
 The catkin package for the 'turtlesim' simulation moved in circles and squares.
